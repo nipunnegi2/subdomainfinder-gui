@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subdomain Finder Results</title>
+</head>
+<body>
+    <h1>Subdomains Found</h1>
+    <ul>
+        {% for subdomain in subdomains %}
+            <li>{{ subdomain }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
